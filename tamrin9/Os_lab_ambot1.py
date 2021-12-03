@@ -33,7 +33,7 @@ def start(update: Update, _: CallbackContext):
 
 
 def age(update: Update, _: CallbackContext):
-    update.message.reply_text(text='دوست عزیر تاریخ تولدت رو به صورت زیر برام بفرس.\n\nمثال: 1377 12 15')
+    update.message.reply_text(text='دوست عزیر تاریخ تولدت رو به صورت زیر برام بفرس.\n\nمثال: 1400 12 12')
     return GET_BORN_DATE
 
 
